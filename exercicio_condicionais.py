@@ -24,15 +24,15 @@
 # classificacao(idade)
 
 # 3
-# login = input('Digite seu login: ')
-# password = input('Digite sua senha: ')
+login = input('Digite seu login: ')
+password = input('Digite sua senha: ')
 
-# def check_login(login, password):
-#   if login == '' or password == '':
-#     print('O login ou senha não podem estar vazios')
-#   elif login != 'adm' and password != '123':
-#     print('Login ou Senha errados')
-#   else:
-#     print('Logado(a) no sistema')
+def check_login(login, password):
+  if login == '' or password == '':
+    print('O login ou senha não podem estar vazios')
+  elif login != 'adm' and password != '123':
+    print('Login ou Senha errados')
+  else:
+    print('Logado(a) no sistema')
 
-# check_login(login, password)
+check_login(login, password)
